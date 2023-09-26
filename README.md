@@ -15,8 +15,8 @@ This project is a simple CLI-based address book application. Users can perform o
 
 ## Project Structure
 - **main.py**: The main driver of the application, providing an interactive CLI menu for users to perform various contact-related operations.
-- **contact.py**: Contains the `Contact` class representing an individual contact with attributes: name, email, and phone number.
-- **address_book.py**: Contains the `AddressBook` class responsible for managing contacts, including adding, editing, deleting, viewing, and saving contacts to and from the CSV file.
+- **src/contact.py**: Contains the `Contact` class representing an individual contact with attributes: name, email, and phone number.
+- **src/address_book.py**: Contains the `AddressBook` class responsible for managing contacts, including adding, editing, deleting, viewing, and saving contacts to and from the CSV file.
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ This project is a simple CLI-based address book application. Users can perform o
 3. Navigate to the project directory in your terminal.
 4. Run the application with the following command:
 ```shell
-python src/main.py
+python -m main
 ```
 5. Follow the on-screen prompts to perform various operations on the address book.
 
