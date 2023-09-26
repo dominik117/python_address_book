@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# data
+*.csv
+
+venv/
+ENV/
+.spyderproject
+.spyproject
+.ipynb_checkpoints
+.vscode/
+
+# Mac system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
