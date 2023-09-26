@@ -25,7 +25,7 @@ This project is a simple CLI-based address book application. Users can perform o
 3. Navigate to the project directory in your terminal.
 4. Run the application with the following command:
 ```shell
-python main.py
+python src/main.py
 ```
 5. Follow the on-screen prompts to perform various operations on the address book.
 
