@@ -49,3 +49,4 @@ if __name__ == '__main__':
     unittest.main()
 
 # python -m unittest tests/test_address_book.py
+# python -m unittest discover -s tests
