@@ -1,5 +1,5 @@
 import csv
-from Contact import Contact
+from contact import Contact
 
 class AddressBook:
     FILENAME = "address_book.csv"

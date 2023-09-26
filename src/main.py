@@ -1,6 +1,6 @@
 import csv
-from AddressBook import AddressBook
-from Contact import Contact
+from address_book import AddressBook
+from contact import Contact
 
 def main():
     address_book = AddressBook()
