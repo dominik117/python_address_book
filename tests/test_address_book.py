@@ -1,6 +1,4 @@
 import unittest
-import sys
-sys.path.append('../src')
 from src.address_book import AddressBook
 from src.contact import Contact
 
