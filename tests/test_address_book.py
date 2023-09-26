@@ -1,4 +1,6 @@
 import unittest
+import sys
+sys.path.append('src')
 from src.address_book import AddressBook
 from src.contact import Contact
 
@@ -7,10 +9,10 @@ class TestAddressBook(unittest.TestCase):
 
     def setUp(self):
         self.address_book = AddressBook()
+        self.original_contacts = self.address_book.contacts.copy()
 
     def tearDown(self):
-        # Cleanup the address book after each test
-        self.address_book.contacts = []
+        self.address_book.contacts = self.original_contacts
         self.address_book.save_to_file()
 
     def test_add_contact(self):
